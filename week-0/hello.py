@@ -1,7 +1,12 @@
 # Ask user for their name
 name = input("What's your name? ")
 
+# Remove whitespace from str
+name = name.strip()
+
 # Saying hello to user
+print(f"hello, {name}")
+
 # print("hello, ")
 # print(name)
 # print("hello, " + name)
@@ -13,6 +18,4 @@ name = input("What's your name? ")
 # How to print quotes
 # print('hello, "friend"')
 # print("hello, \"friend\"")
-
 # print("hello, {name}")
-print(f"hello, {name}")

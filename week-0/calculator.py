@@ -1,6 +1,6 @@
 # Variables to start the calculator
-x = 1
-y = 2
+x = input("What's x? ")
+y = input("What's y? ")
 
 # Operation
 z = x + y

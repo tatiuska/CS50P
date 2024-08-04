@@ -3,7 +3,7 @@ x = float(input("What's x? "))
 y = float(input("What's y? "))
 
 # Calculating a division
-z = x / y
+z = round(x / y, 2)
 
 # Printing the results
 print(z)

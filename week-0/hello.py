@@ -1,8 +1,9 @@
 # Creating the function hello
-def hello(to):
+def hello(to="world"):
 
     print("hello,", to)
 
+hello()
 # Ask user for their name
 name = input("What's your name? ")
 hello(name)

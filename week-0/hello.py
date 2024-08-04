@@ -2,13 +2,12 @@
 def main():
     # Ask user for their name
     name = input("What's your name? ")
-    hello(name)
+    hello()
 
 
 # Creating the function hello
-def hello(to="world"):
-
-    print("hello,", to)
+def hello():
+    print("hello,", name)
 
 main()
 

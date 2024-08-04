@@ -2,8 +2,8 @@
 x = float(input("What's x? "))
 y = float(input("What's y? "))
 
-# Using the funcion round
-z = round(x + y)
+# Calculating a division
+z = x / y
 
 # Printing the results
-print(f"{z:,}")
+print(z)

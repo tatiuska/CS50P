@@ -1,11 +1,20 @@
+# Creating the function hello
+def hello():
+    print("hello")
+
 # Ask user for their name
-name = input("What's your name? ").strip().title()
+name = input("What's your name? ")
+hello()
+print(name)
 
-# Split user's name into first name and last name
-first, last = name.split(" ")
+# # Ask user for their name
+# name = input("What's your name? ").strip().title()
 
-# Saying hello to user
-print(f"hello, {first}")
+# # Split user's name into first name and last name
+# first, last = name.split(" ")
+
+# # Saying hello to user
+# print(f"hello, {first}")
 
 # print("hello, ")
 # print(name)

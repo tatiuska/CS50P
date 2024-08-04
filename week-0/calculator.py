@@ -1,9 +1,19 @@
-# Variables to start the calculator
-x = float(input("What's x? "))
-y = float(input("What's y? "))
+# Creating the function main()
+def main():
+    x = int(input("What's x? "))
+    print("x squared is", square(x))
 
-# Calculating a division
-z = x / y
+def square(n):
+    return n * n
 
-# Printing the results
-print(f"{z:.2f}")
+main()
+
+# # Variables to start the calculator
+# x = float(input("What's x? "))
+# y = float(input("What's y? "))
+
+# # Calculating a division
+# z = x / y
+
+# # Printing the results
+# print(f"{z:.2f}")

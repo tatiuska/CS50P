@@ -3,4 +3,14 @@ def get_guess():
     return guess
 
 
-print(get_guess())
+def main():
+    guess = get_guess()
+    if(guess == 50): {
+        print("Correct!")
+    } 
+    else: {
+        print("Incorrect!")
+    }
+
+
+main()

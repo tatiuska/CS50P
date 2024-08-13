@@ -1,8 +1,9 @@
 def greet(input):
     if "hello" in input:
-        print("hello, there!")
+        return "hello, there"
     else:
-        print("I'm not sure what you mean.")
+        return "I'm not sure what you mean"
 
 
-greet("hello, computer")
+greeting = greet("hello, computer")
+print(greeting + " Julia")

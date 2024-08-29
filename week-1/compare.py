@@ -1,4 +1,4 @@
-# function to show comparisons using if
+# function to show comparisons using if, elif and else
 x = int(input("What's x? "))
 y = int(input("What's y? "))
 
@@ -8,6 +8,6 @@ if x < y:
 elif x > y:
     print("x is greater than y.")
 
-elif x == y:
+else:
     print("x is equal to y.")
 

@@ -6,5 +6,8 @@
 #    i += 1
 
 #using for
-for _ in range(8):
-    print("meow")
+#for _ in range(8):
+#    print("meow")
+
+#version using only print
+print("meow\n" * 3, end="")

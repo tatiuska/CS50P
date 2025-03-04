@@ -6,5 +6,5 @@
 #    i += 1
 
 #using for
-for i in [0, 1, 2]:
+for i in range(10):
     print("meow")

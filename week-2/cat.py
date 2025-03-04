@@ -6,5 +6,5 @@
 #    i += 1
 
 #using for
-for i in range(10):
+for _ in range(8):
     print("meow")

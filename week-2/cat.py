@@ -1,4 +1,5 @@
 #funciton to demonstrate how loops works
-print("meow")
-print("meow")
-print("meow")
+i = 3
+while i != 0:
+    print("meow")
+    i = i - 1
